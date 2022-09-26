@@ -11,5 +11,15 @@ $ touch athif.txt
 ## Menampilkan Sebuah Konten
 Kita dapat menampilkan konten dari sebuah file dengan command " **cat file_name** ". Contohnya seperti :
 ```
-$ cat athift.text
+$ cat athif.text
 ```
+
+## Membuat Direktori
+Direktori atau biasa yang disebut dengan folder dapat dibuat melalui command line dengan cara " **mkdir file_name** ". Contohnya seperti :
+```
+$ mkdir alya
+```
+
+## **Struktur File** 
+## Berpindah Diantara File
+Saat kita menggunakan komputer, pasti struktur file kita sangat banyak, dengan menggunakan command line kita dapat berpindah file ke file lainnya. Dengan menggunakan command " **cd** " maka dapat berpindah pada suatu file/direktori secara spesifik. 
