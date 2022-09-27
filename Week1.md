@@ -12,6 +12,11 @@ CLI atau yang dikenal dengan Command Line Interface adalah suatu program yang ak
 ## Mengakses CLI dan Penggunaan Terminal
 Cara mengakses CLI pada setiap sistem operasi berbeda contohnya pada sistem operasi pada Windows kita bisa menggunakan yang namanya CMD atau command prompt sedangkan pada sistem operasi Linux kita bisa menggunakan yang namanya Shell hanya saja pada linux dinamakan Shell Bash tapi pada dasarnya sama saja.
 
+Ada beberapa cara menggunaka terminal di sistem operasi windows, antara lain:
+- Dengan membuka aplikasi terminal di start
+- Dengan membuka run dan ketik cmd
+- Dengan membuka folder lalu klik kanan lalu pilih " open in terminal "
+
 ## Menambahkan File
 Kita dapat membuat file kosong dengan cara mengetik pada terminal '' **touch file_name** ''. Contohnya seperti :
 ```
