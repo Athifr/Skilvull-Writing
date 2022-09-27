@@ -365,3 +365,28 @@ Apakah kamu pernah mengisi form di website? Pembuatan Form sebanarnya memiliki b
 Sebenarnya ada banyak cara untuk kita mempublish html yang telah kita buat agar bisa digunakan. Tujuan dari pembutan website biasanya agar bisa digunakan orang lain bukan? Cara umum bisa kita hosting secara online, namun itu berbayar. Alternatifnya mungkin kita bisa menggunakan hosting gratis seperti netlify atau platform yang serupa. Namun kita bisa juga mempublish dengan mengunggah filenya. 
 
 # **CSS**
+
+## Apa Itu CSS?
+CSS adalah salah satu bahasa komputer yang berguna untuk mempercantik atau menambahkan desain ke suatu halaman web.
+
+## Menyisipkan CSS Pada HTML
+Ada 3 cara kita menyipskan CSS, yaitu:
+- Inline CSS -> Menggunakan attribute style di dalam HTML element. 
+- Internal CSS -> Menggunakan element style untuk menyisipkan code CSS, element style ini akan ditempatkan di dalam element.
+- External CSS -> Menggunakan file terpisah yang akan ditautkan dengan element link.
+
+## CSS Syntax
+CSS syntax adalah syntax yang memilih HTML element mana yang ingin kita beri style. CSS syntax terdiri dari selector, property, dan value. Bentuknya seperti:
+```
+selector {
+  property: value;
+}
+```
+Misal kita ingin memberi warna pada heading 1.
+```
+h1 {
+  color: red;
+}
+```
+## Menerapkan Styling CSS Pada Halaman Web
+Penerapan Styling pada halaman website menggunakan CSS sangatlah beragam dan banyak. Kita sangat tidak jarang memberikan styling pada suatu element, dari pewarnaan seperti color dan background color, sizing seperti mengatur size font dan size suatu konten, ada juga Box Model yang sangat sering kita gunakan dalam mengatur margin, padding, border, dan masih banyak lainnya. Walaupun sudah terbiasa dan paham konsep styling pada halaman, tidak jarang pula seorang pengembang ahli masih membuka dokumen CSS yang tersedia di browser. Kita bisa mengunjugi dokumen CSS [di sini](https://developer.mozilla.org/en-US/docs/Web/CSS). 
