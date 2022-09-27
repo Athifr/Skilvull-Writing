@@ -52,3 +52,18 @@ Jika kita menggunakan command " **cd** " tanpa menetapkan sebuah direktori, maka
 alya $ cd
 ~ $ 
 ```
+
+## **Mengelola File Direktori**
+## Memindahkan File dan Direktori
+Kita dapat memindahkan file yang ada di sebuah folder ke dalam folder lainnya. Caranya sangat mudah kita bisa menggunakan command " **mv file_yang_ingin_dipindahkan direktori_tujuan** ". Contohnya seperti
+```
+$ mv athif.txt alya
+```
+
+## Mengganti Nama File dan Direktori
+Command mv selain untuk memindahkan file dapat juga digunakan untuk mengubah nama file dan direktori caranya " **mv NamaFileLama NamaFileBaru** ". Contohnya seperti:
+```
+$ mv athif.txt pacarAlya.txt
+```
+
+## Menyalin File dan Direktori
