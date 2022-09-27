@@ -91,3 +91,65 @@ Selain dapat menyalin kita juga dapat menghapus suatu file dengan menggunakan co
 ```
 alya $ rm sayangAlya.txt
 ```
+
+
+# **Git & Github**
+## Kenapa harus Git dan Github?
+Saat kita membuat website, kemungkinan besar akan berkolaborasi dengan orang lain pada proses project nanti untuk hal ini diperlukan suatu tools yang berguna dan memudahkan kita berkolaborasi dengan orang lain.
+
+**Git** adalah tool yang memudahkan Anda untuk melakukan pengembangan dan berkolaborasi dengan tim selain itu kegunaan git adalah suatu kendali sistem yang terdistribusi yang artinya semua riwayat code kita akan terekam dengan jelas setiap kita melakukan perubahan, pembuatan branch, dan penggabungan. 
+
+**Github** adalah suatu website layan berbasis cloud untuk para developer mengelola dan mengubah code mereka serta melakukan perubahan yang dapat dikontrol yang artinya Github merupakan suatu platform untuk kita bekerjama sama dengan developer lainnya.
+
+## Bagaimana alur proses dalam penggunaan Git?
+Alur menggunakan git ada yang harus dilalui, antara lain:
+1. Kita harus membuat sebuah repository terlebih dahulu.
+2. Setelah meng-create repo server, selanjutnya adalah membuat clone repo untuk tim lain agar dapat berkolaborasi dengan repo yang sama.
+3. Selanjutnya kita bisa melakukan code add, edit, delete, dll untuk proses pengerjaan proyeknya, tergantung kebutuhan masing-masing.
+4. Setelah melakukan code di atas, jangan lupa untuk dicommit dan berikan suatu message agar apa yang telah dikerjakan jelas serta diketahui dengan tim lainnya.
+5. Setelah kita commit kita bisa push untuk mengunggah file ke remote.
+6. Setelah salah satu orang melakukan code push maka tim lainnya dapat mengunduh dengan cara melakukan code pull.
+7. Alur simplenya antara lain : Add -> Commit -> Push -> Pull.
+
+## Inisialisasi Git
+Untuk pertama kali git harus kita inisialisasi, caranya gampang cukup mengetik:
+``` 
+$ git init
+```
+
+## Memilih File
+Jika anda sudah membuat suatu file selanjut kita dapat memilih file untuk dibagikan dengan cara:
+```
+$ git add NamaFile
+```
+
+## Menyimpan File Perubahan
+Jika sudah memilih file yang diubah maka kita harus menyimpan file tersebut, dengan menambahkan suatu pesan agar tidak membingungkan tim lainnya. Menyimpan perubahan ini biasa disebut dengan commit, caranya:
+```
+$ git commit -m "Pesan"
+```
+## Menambah Remote Repository
+Git menggunakan remote (remote repository) untuk menyimpan file yang akan dibagikan. Developer melakukan mengunduh dan mengunggah file dari remote dalam proses berbagi. Kita dapat melakukannya dengan cara:
+```
+$ git remote add RemoteName UrlRemote
+```
+## Mengunggah File
+Kita dapat mengunggah file yang sudah kita commit dengan cara:
+```
+$ git push -u origin main/master
+```
+
+## Mengunduh File 
+Setelah salah satu pengembang mengunggah file ke remote kita harus mengunggah file tersebut dengan cara:
+```
+$ git pull origin main/master
+```
+
+## Cloning Github ke Local
+Kita dapat mengeclone suatu repository ke file local di dalam komputer kita, salah satu caranya adalah kita dapat menggunakan git clone. Pertama kita bisa membuka direktori atau folder yang kita inginkan untuk menyimpan clone reponya. Setelah dibuka kita bisa menggunakan git bash lalu ketik code:
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+# **HTML**
+
