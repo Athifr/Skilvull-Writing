@@ -67,3 +67,13 @@ $ mv athif.txt pacarAlya.txt
 ```
 
 ## Menyalin File dan Direktori
+Kita dapat menyalin sebuah file di dalam folder dengan menggunakan command " **cp NamaFileYangDisalin NamaFileBaru** ". Contohnya seperti :
+```
+alya $ pacarAlya.txt sayangAlya.txt
+```
+
+## Menghapus File dan Direktori
+Selain dapat menyalin kita juga dapat menghapus suatu file dengan menggunakan command " rm NamaFile ". Contohnya seperti:
+```
+alya $ rm sayangAlya.txt
+```
