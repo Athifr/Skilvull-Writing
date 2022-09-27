@@ -3,6 +3,15 @@
 # **Unix Command Line**
 Unix command line adalah tool untuk kita berinteraksi dengan komputer dengan hanya menggunakan text (biasa dikenal dengan text interface)
 
+## Shell
+Shell merupakan program perintah yang diketikkan melalui keyboard dan menyampaikannya kepada sistem operasi untuk diproses.
+
+## Command Line interface
+CLI atau yang dikenal dengan Command Line Interface adalah suatu program yang akan memerintahkan suatu komputer untuk melakukan tugasnya dengan inputan teks dan akan menampilkan suatu informasi berupa teks juga.
+
+## Mengakses CLI dan Penggunaan Terminal
+Cara mengakses CLI pada setiap sistem operasi berbeda contohnya pada sistem operasi pada Windows kita bisa menggunakan yang namanya CMD atau command prompt sedangkan pada sistem operasi Linux kita bisa menggunakan yang namanya Shell hanya saja pada linux dinamakan Shell Bash tapi pada dasarnya sama saja.
+
 ## Menambahkan File
 Kita dapat membuat file kosong dengan cara mengetik pada terminal '' **touch file_name** ''. Contohnya seperti :
 ```
