@@ -499,4 +499,20 @@ Bisa kita lihat dalam penggunaan CSS Dasar sangat tidak jarang kita mengatur siz
 ## **Metode Responsive**
 Pernahkah kalian membuka website pada smartphone kalian tapi lebar element yang ditampilkan di smartphone kalian itu sangat berantakan? Tentu hal ini terjadi karena website tersebut diatur dan ditujukan sesuai size tampilan komputer. Bagaimana solusi untuk hal ini? berikut penjelasannya.
 
-##
+## Mengatur Viewport
+Viewport merupakan daerah pada layar yang menampilkan suatu konten. Tujuannya adalah membuat halaman menjadi responsif.
+Jika kalian cukup tajam dalam HTML pada bagian head di bagian meta tertulis viewport, hal ini yang membuat browser dapat mengikuti lebar layar sesuai perangkat yang digunakan. 
+```
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+```
+## Media Query
+Dengan menggunakan media query, kita bisa mengatur lebar suatu element sesuai dengan ukuran dari browser. Maka pengguna yang menggunakan smartphone dapat melihatnya dengan jelas. Kita bisa menggunakan max-width untuk membuat suatu konten mengikuti layar. 
+
+## Flexbox
+Flexbox merupakan element yang dapat mengatur layout, posisi dan ukuran untuk setiap element di dalamnya. Kita harus mengetahui 2 aspek penting dalam belajar flexbox, yaitu:
+- container -> element yang membungkus dan mengatur tampilan dari element di dalamnya. Sehingga element dapat diatur secara jamak dengan menggunakan satu element container.
+- item -> element dalam container yang diatur tampilannya.
+
+- item
