@@ -514,5 +514,3 @@ Dengan menggunakan media query, kita bisa mengatur lebar suatu element sesuai de
 Flexbox merupakan element yang dapat mengatur layout, posisi dan ukuran untuk setiap element di dalamnya. Kita harus mengetahui 2 aspek penting dalam belajar flexbox, yaitu:
 - container -> element yang membungkus dan mengatur tampilan dari element di dalamnya. Sehingga element dapat diatur secara jamak dengan menggunakan satu element container.
 - item -> element dalam container yang diatur tampilannya.
-
-- item
