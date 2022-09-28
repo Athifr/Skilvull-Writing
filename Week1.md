@@ -596,7 +596,7 @@ a++
 Mathematical Assignment Operator
 ```
   let A = 15 ; 
-  x *= 10 ; 
+  A *= 10 ; 
   console.log(A) // Output: 150
 ```
 ## **Javascript Control Flow**
