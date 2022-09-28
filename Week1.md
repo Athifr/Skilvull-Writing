@@ -550,4 +550,137 @@ if (nilaiAndi > 80) {
 ```
 
 # ** Intro to Javascript**
+Javascript merupakan bahasa pemrograman yang digunakan untuk membuat suatu website menjadi interaktif. Cara menjalankan javascript adalah melalui berbagai browser. Namun mozilla dan google chrome merupakan browser yang paling umum digunakan.
 
+## Tipe Data
+Ada 6 macam tipe data fundamaental pada javascript yaitu :
+- Number : tipe data yang mengandung semua jenis angka.
+Tipe data number ada 2 macam yaitu integer (terdiri dari bilangan bulat positif atau negatif) dan float (terdiri dari bilangan desimal)
+- String : tipe data yang terdiri dari huruf, angka, spasi maupun simbol
+Tipe data string ada 2 macam yaitu char dan
+- Boolean : tipe data yang memiliki nilai true or false
+- Null : tipe data pada sebuah data/variabel yang tidak memiliki nilai
+- Undefined : tipe data yang merepresentasikan varibel/data yang tidak memiliki nilai
+- bject : tipe data yg dapat berisi berbagai nilai dan berhubungan dengan dunia nyata
+
+## Javascript Operator
+- Arithmetic Operator digunakan apabila melibatkan operasi matematika
+```
+Pertambahan (+)
+Pengurangan (-)
+Perkalian (*)
+Pembagian (/)
+Modulus (%)
+```
+- Comparism Operator digunakan untuk membandingkan suatu nilai
+```
+Lebih Besar (>)
+Lebih Kecil (<)
+Lebih kecil atau samadengan (<=)
+Lebih besar atau samadengan (>=)
+Samadengan (===)
+Tidak Samadengan (!==)
+```
+- Logical Operator digunakan untuk sebuah kondisi
+```
+AND operator (&&)
+OR operator (||)
+NOT operator (!)
+```
+Increment dan Decrement digunakan untuk menambah atau mengurangi sebesar 1, Contohnya seperti:
+```
+let a = 8;
+a++
+  console.log(a) // output: 9
+```
+Mathematical Assignment Operator
+```
+  let A = 15 ; 
+  x *= 10 ; 
+  console.log(A) // Output: 150
+```
+## **Javascript Control Flow**
+
+## Conditional
+
+**if**
+Digunakan apabila hanya ada 1 kondisi dan 1 keputusan yang dijalankan.
+```
+if (kondisi1) {
+  // masukkan kode yang akan dijalankan di sini apabila kondisi1 tercapai
+}
+```
+**if...else**
+Digunakan apabila ada 1 kondisi dan 2 keputusan yang dijalankan.
+```
+if (kondisi1) {
+  // masukkan kode yang akan dijalankan di sini apabila kondisi1 tercapai
+} else {
+  // masukkan kode yang akan dijalankan di sini apabila kondisi1 TIDAK tercapai
+}
+```
+if...else if...else
+Digunakan apabila ada beberapa kondisi dan beberapa keputusan yang dijalankan.
+```
+if (kondisi1) {
+  // masukkan kode yang akan dijalankan di sini apabila kondisi1 tercapai
+} else if (kondisi2) {
+  // masukkan kode yang akan dijalankan di sini apabila kondisi1 tidak tercapai dan kondisi2 tercapai
+} else if (kondisi3) {
+  // masukkan kode yang akan dijalankan di sini apabila kondisi1 dan kondisi2 tidak tercapai, dan kondisi3 tercapai
+} ... {
+} else {
+  // masukkan kode yang akan dijalankan di sini apabila semua kondisi di atas TIDAK tercapai
+}
+```
+Untuk memudahkan teman-teman, bisa melihat contoh berikut:
+```
+let nilaiAndi = 95;
+
+if (nilaiAndi > 80) {
+  console.log("SANGAT MEMUASKAN");
+} else if (nilaiAndi >= 60 && nilaiAndi <= 80) {
+  console.log("MEMUASKAN");
+} else {
+  console.log("JANGAN MENYERAH, COBA LAGI!");
+}
+
+// Output: SANGAT MEMUASKAN
+```
+
+## Javascript Looping
+ loop adalah sekumpulan kode yang akan dijalankan berulang kali sampai batas yang ditentukan.
+ 
+ Ada berbagai jenis loop, antara lain:
+- for
+- for...in
+- for...of
+- while
+- do...while
+
+**For Loop**
+Digunakan jika kita tahu pasti seberapa banyak pengulangan yang ingin dilakukan pada program yang akan dikembangkan. Contoh:
+```
+for (let i = 1; i <= 8; i++) {
+    console.log(i);
+}
+```
+**While Loop**
+Digunakan untuk menjalankan instruksi pengulangan bernilai TRUE Ada 2 macam while loop yaitu while dan do while. Contoh:
+```
+let count = 1 ;
+while (count <= 10){
+    console.log(count);
+    count ++ ;
+}
+```
+
+**Do While Loop**
+
+```
+count = 1 ;
+do {
+    console.log(count);
+    count ++ ;
+}   while (count <= 5)
+```
