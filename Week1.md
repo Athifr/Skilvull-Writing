@@ -514,3 +514,39 @@ Dengan menggunakan media query, kita bisa mengatur lebar suatu element sesuai de
 Flexbox merupakan element yang dapat mengatur layout, posisi dan ukuran untuk setiap element di dalamnya. Kita harus mengetahui 2 aspek penting dalam belajar flexbox, yaitu:
 - container -> element yang membungkus dan mengatur tampilan dari element di dalamnya. Sehingga element dapat diatur secara jamak dengan menggunakan satu element container.
 - item -> element dalam container yang diatur tampilannya.
+
+# **Algoritma & Data Struktur**
+
+## Apa Perbedaan Algoritma dan Data Struktur?
+Algoritma adalah langkah-langkah bagaimana suatu logika dapat menyelesaikan masalah. Sedangkan Struktur Data ada cara kita menyimpan atau mengorganisasikan suatu data dalam penyimpanan komputer sehingga dapat digunakan secara efektif dan efesien.
+
+## Manfaat Algoritma & Data Struktur
+Dengan adanya Algoritma manusia bisa mengerjakan dan memecahkan suatu masalah dengan baik dan sesuai langkah yang ada dan kegunaan data struktur dapat menyimpan dan mengatur data, meningkatkan kualitas algoritma serta dapat membuat proses pemograman yang mudah dipahami.
+
+## Membuat Algoritma Sederhana
+Kita contohi ketika ingin mencuci pakaian menggunakan mesin cuci, ada beberapa langkah yang harus kita lewati antara lain:
+1. Menyiapkan semua bahan yang diperlukan seperti rinso.
+2. Masukkan baju yang ingin dicuci.
+3. Isi air bersih di bagian untuk mencuci.
+4. Masukin Rinso sesuai takaran.
+5. Atur kecepatan cucian sesuai dengan berat yang ada.
+6. Jika sudah, bilas sekali lagi dengan air bersih.
+7. Setelah pakaian dicuci kita bisa masukkan pakaian pada tempat pengeringan.
+8. Atur Waktu pengeringan.
+9. Setelah kering pakaian siap dikeringkan.
+
+## Menerapkan Algoritma dalam bahasa Pemograman dan Javascript
+Tidak jauh program yang terkadang kita buat membutuhkan algoritma untuk penyelesainnya, saya akan mengambil contoh sederhananya seperti:
+```
+let nilaiAndi = 90;
+
+if (nilaiAndi > 80) {
+    console.log("SANGAT MEMUASKAN");
+} else if (nilaiAndi >= 60 && nilaiAndi <= 80) {
+    console.log("MEMUASKAN");
+} else {
+    console.log("JANGAN MENYERAH, COBA LAGI!");
+}
+```
+
+#** Intro to Javascript**
