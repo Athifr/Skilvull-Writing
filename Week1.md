@@ -557,11 +557,11 @@ Ada 6 macam tipe data fundamaental pada javascript yaitu :
 - Number : tipe data yang mengandung semua jenis angka.
 Tipe data number ada 2 macam yaitu integer (terdiri dari bilangan bulat positif atau negatif) dan float (terdiri dari bilangan desimal)
 - String : tipe data yang terdiri dari huruf, angka, spasi maupun simbol
-Tipe data string ada 2 macam yaitu char dan
+Tipe data string ada 2 macam yaitu char dan varchar
 - Boolean : tipe data yang memiliki nilai true or false
 - Null : tipe data pada sebuah data/variabel yang tidak memiliki nilai
 - Undefined : tipe data yang merepresentasikan varibel/data yang tidak memiliki nilai
-- bject : tipe data yg dapat berisi berbagai nilai dan berhubungan dengan dunia nyata
+- Object : tipe data yg dapat berisi berbagai nilai dan berhubungan dengan dunia nyata
 
 ## Javascript Operator
 - Arithmetic Operator digunakan apabila melibatkan operasi matematika
