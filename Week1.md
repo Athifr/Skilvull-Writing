@@ -549,7 +549,7 @@ if (nilaiAndi > 80) {
 }
 ```
 
-# ** Intro to Javascript**
+# **Intro to Javascript**
 Javascript merupakan bahasa pemrograman yang digunakan untuk membuat suatu website menjadi interaktif. Cara menjalankan javascript adalah melalui berbagai browser. Namun mozilla dan google chrome merupakan browser yang paling umum digunakan.
 
 ## Tipe Data
