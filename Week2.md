@@ -13,13 +13,13 @@ contoh global scope :
 Blocks merupakan code yang berada dalam curly braces {}. Conditional, function dan looping menggunakan blocks.
 
 ## **Function**
-
-Function adalah sebuah code blok dalam sebuah grup untuk menyelesaikan 1 task
-Contoh function:
+ Fungsi dalam JavaScript mirip dengan prosedur pernyataan yang melakukan tugas atau menghitung nilai, tetapi agar prosedur memenuhi syarat sebagai fungsi, kita harus mengambil beberapa input dan mengembalikan output di mana ada beberapa hubungan yang jelas antara masukan dan keluaran. Untuk menggunakan suatu fungsi, Anda harus mendefinisikannya di suatu tempat dalam lingkup dari mana Anda ingin memanggilnya.
+Contoh function deklarasi:
 ```
-   function halo() {
-      return 'Hello World' ;
-   };
+function square(number) {
+  return number * number;
+}
+
 ```
 Memanggil function :
 ```
